@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    background-color: #1652F0 !important;
+    font-family: "Roboto",sans-serif;
+}
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+} */
+
+.login-form{
+    width: 350px;
+    height: 320px;
+    margin: 20px;
+    border-radius: 10px !important;
+}
+.login-form div{
+    margin-top: 5px;
+}
+
+
+/* input[type="email"],
+    input[type="password"]{
+    border-radius: 10px;
+    margin-bottom: 10px; 
+ } */
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.card-title{
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+#signup-btn{
+    background-color: #1652F0;
+    transform: translateY(5px);
+    /* border-radius: px !important; */
+}
+
+.signup{
+    text-align: center;
+    padding-top: 25px;
+}
+.card-text{
+    font-size: 12px;
+}
+#forgot-btn{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+.card-text a{
+    margin: 0%;
+    text-decoration: none;
+}
+
+#btn:hover{
+    background-color: #797db8;
+}
+
+    /* Media Query */
+
